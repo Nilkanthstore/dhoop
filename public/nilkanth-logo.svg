@@ -1,0 +1,336 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 90" fill="none" width="100%" height="100%">
+  <defs>
+    <!-- Royal Gold Metal Gradients -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D061" />
+      <stop offset="35%" stop-color="#E5A93B" />
+      <stop offset="70%" stop-color="#C48220" />
+      <stop offset="100%" stop-color="#8C540B" />
+    </linearGradient>
+
+    <linearGradient id="goldBright" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8DC" />
+      <stop offset="50%" stop-color="#E5A93B" />
+      <stop offset="100%" stop-color="#9E6513" />
+    </linearGradient>
+
+    <linearGradient id="goldDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9E6513" />
+      <stop offset="100%" stop-color="#5E3804" />
+    </linearGradient>
+
+    <!-- Sacred Crimson Vermilion Gradient for Nilkanth Dham -->
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D3252B" />
+      <stop offset="50%" stop-color="#B81A20" />
+      <stop offset="100%" stop-color="#8A0C11" />
+    </linearGradient>
+
+    <!-- Masala Agarbatti Sticks Paste Gradient -->
+    <linearGradient id="masalaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A2810" />
+      <stop offset="30%" stop-color="#6B3E1C" />
+      <stop offset="70%" stop-color="#8A5229" />
+      <stop offset="100%" stop-color="#4A2810" />
+    </linearGradient>
+
+    <!-- Raw Bamboo Stick Gradient -->
+    <linearGradient id="bambooGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C29F62" />
+      <stop offset="50%" stop-color="#E5C78B" />
+      <stop offset="100%" stop-color="#B38F52" />
+    </linearGradient>
+
+    <!-- Burning Agarbatti Ember Glow (Radial) -->
+    <radialGradient id="emberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFDF0" />
+      <stop offset="25%" stop-color="#FFB300" />
+      <stop offset="65%" stop-color="#FF3D00" />
+      <stop offset="100%" stop-color="#FF1A00" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Fragrant Sacred Incense Smoke Gradient -->
+    <linearGradient id="smokeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#E68A00" stop-opacity="0.9" />
+      <stop offset="20%" stop-color="#D4A759" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#B88B42" stop-opacity="0.75" />
+      <stop offset="80%" stop-color="#8F6A30" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#6E5020" stop-opacity="0.1" />
+    </linearGradient>
+
+    <linearGradient id="smokeWisp" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FFA834" stop-opacity="0.7" />
+      <stop offset="40%" stop-color="#C99E57" stop-opacity="0.6" />
+      <stop offset="80%" stop-color="#A67C38" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#8A6324" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Soft Golden Halo Fill -->
+    <radialGradient id="haloGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5D061" stop-opacity="0.15" />
+      <stop offset="70%" stop-color="#E5A93B" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#C48220" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Ember Bloom Filter -->
+    <filter id="emberBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.8" flood-color="#5E3804" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- ========================================================================= -->
+  <!-- LEFT: THE SACRED AGARBATTI INCENSE EMBLEM                                  -->
+  <!-- ========================================================================= -->
+  <g transform="translate(46, 45)" filter="url(#subtleShadow)">
+    
+    <!-- 1. Background Halo & Sacred Mandala Rays -->
+    <circle cx="0" cy="0" r="37" fill="url(#haloGlow)" />
+    <circle cx="0" cy="0" r="36" stroke="url(#goldGrad)" stroke-width="0.9" stroke-dasharray="2 3" opacity="0.6" fill="none" />
+    <circle cx="0" cy="0" r="32" stroke="url(#goldGrad)" stroke-width="0.6" opacity="0.4" fill="none" />
+
+    <!-- Mandala Dot Accents (8 cardinal directions) -->
+    <circle cx="0" cy="-36" r="1.2" fill="#D49B35" />
+    <circle cx="25.5" cy="-25.5" r="1" fill="#D49B35" opacity="0.8" />
+    <circle cx="36" cy="0" r="1.2" fill="#D49B35" />
+    <circle cx="25.5" cy="25.5" r="1" fill="#D49B35" opacity="0.8" />
+    <circle cx="0" cy="36" r="1.2" fill="#D49B35" />
+    <circle cx="-25.5" cy="25.5" r="1" fill="#D49B35" opacity="0.8" />
+    <circle cx="-36" cy="0" r="1.2" fill="#D49B35" />
+    <circle cx="-25.5" cy="-25.5" r="1" fill="#D49B35" opacity="0.8" />
+
+    <!-- 2. Divine Fragrance Smoke Ribbons (Aromatic Curving Waves) -->
+    <!-- Left Agarbatti Smoke Plume -->
+    <path 
+      d="M -16 -23 C -20 -28, -22 -34, -17 -39 C -12 -44, -13 -48, -10 -51 C -7 -54, -12 -58, -8 -61" 
+      fill="none" 
+      stroke="url(#smokeGrad)" 
+      stroke-width="1.8" 
+      stroke-linecap="round" 
+      opacity="0.85"
+      transform="translate(0, 18)"
+    />
+    <path 
+      d="M -14 -22 C -18 -29, -13 -35, -17 -40 C -20 -44, -15 -48, -18 -52" 
+      fill="none" 
+      stroke="url(#smokeWisp)" 
+      stroke-width="1.1" 
+      stroke-linecap="round" 
+      opacity="0.6"
+      transform="translate(0, 18)"
+    />
+
+    <!-- Center Agarbatti Smoke Plume (Sacred Spiraling Plume) -->
+    <path 
+      d="M 0 -24 C 4 -30, -3 -36, 3 -42 C 8 -47, 1 -52, 4 -57 C 7 -61, 2 -65, 3 -68" 
+      fill="none" 
+      stroke="url(#smokeGrad)" 
+      stroke-width="2.2" 
+      stroke-linecap="round" 
+      opacity="0.9"
+      transform="translate(0, 18)"
+    />
+    <path 
+      d="M 1 -24 C -3 -30, 4 -37, -2 -43 C -6 -48, 1 -54, -1 -59" 
+      fill="none" 
+      stroke="url(#smokeWisp)" 
+      stroke-width="1.2" 
+      stroke-linecap="round" 
+      opacity="0.65"
+      transform="translate(0, 18)"
+    />
+
+    <!-- Right Agarbatti Smoke Plume -->
+    <path 
+      d="M 16 -23 C 20 -28, 22 -34, 17 -39 C 12 -44, 13 -48, 10 -51 C 7 -54, 12 -58, 8 -61" 
+      fill="none" 
+      stroke="url(#smokeGrad)" 
+      stroke-width="1.8" 
+      stroke-linecap="round" 
+      opacity="0.85"
+      transform="translate(0, 18)"
+    />
+    <path 
+      d="M 14 -22 C 18 -29, 13 -35, 17 -40 C 20 -44, 15 -48, 18 -52" 
+      fill="none" 
+      stroke="url(#smokeWisp)" 
+      stroke-width="1.1" 
+      stroke-linecap="round" 
+      opacity="0.6"
+      transform="translate(0, 18)"
+    />
+
+    <!-- Intertwining Fragrance Swirl (Lotus Crown of Smoke at top) -->
+    <path 
+      d="M -7 -44 C -3 -49, 3 -49, 7 -44 C 11 -39, 4 -35, 0 -38 C -4 -35, -11 -39, -7 -44 Z" 
+      fill="url(#smokeWisp)" 
+      opacity="0.4"
+      transform="translate(0, 18)"
+    />
+
+    <!-- 3. Golden Sacred Incense Sparks / Embers Floating -->
+    <circle cx="-5" cy="-28" r="0.9" fill="#FFA500" opacity="0.8" />
+    <circle cx="6" cy="-30" r="0.8" fill="#FFA500" opacity="0.8" />
+    <circle cx="1" cy="-35" r="1.1" fill="#FFD700" opacity="0.9" />
+    <circle cx="-11" cy="-22" r="0.7" fill="#FF8C00" opacity="0.7" />
+    <circle cx="12" cy="-22" r="0.7" fill="#FF8C00" opacity="0.7" />
+
+    <!-- 4. Three Sacred Burning Agarbatti Sticks -->
+    
+    <!-- Left Stick (tilted -12°) -->
+    <g transform="rotate(-12, 0, 30)">
+      <!-- Bamboo stem inside burner -->
+      <line x1="0" y1="30" x2="0" y2="20" stroke="url(#bambooGrad)" stroke-width="1.4" stroke-linecap="round" />
+      <!-- Masala paste coated stick body -->
+      <line x1="0" y1="20" x2="0" y2="-21" stroke="url(#masalaGrad)" stroke-width="2.6" stroke-linecap="round" />
+      <!-- Stick 3D highlight edge -->
+      <line x1="-0.4" y1="18" x2="-0.4" y2="-19" stroke="#9E6534" stroke-width="0.6" />
+      <!-- Burning Ember Tip -->
+      <circle cx="0" cy="-22.5" r="3.5" fill="url(#emberGlow)" opacity="0.7" filter="url(#emberBlur)" />
+      <circle cx="0" cy="-22" r="1.6" fill="#FF2600" />
+      <circle cx="0" cy="-22.8" r="0.9" fill="#FFF8B3" />
+    </g>
+
+    <!-- Right Stick (tilted +12°) -->
+    <g transform="rotate(12, 0, 30)">
+      <!-- Bamboo stem inside burner -->
+      <line x1="0" y1="30" x2="0" y2="20" stroke="url(#bambooGrad)" stroke-width="1.4" stroke-linecap="round" />
+      <!-- Masala paste coated stick body -->
+      <line x1="0" y1="20" x2="0" y2="-21" stroke="url(#masalaGrad)" stroke-width="2.6" stroke-linecap="round" />
+      <!-- Stick 3D highlight edge -->
+      <line x1="-0.4" y1="18" x2="-0.4" y2="-19" stroke="#9E6534" stroke-width="0.6" />
+      <!-- Burning Ember Tip -->
+      <circle cx="0" cy="-22.5" r="3.5" fill="url(#emberGlow)" opacity="0.7" filter="url(#emberBlur)" />
+      <circle cx="0" cy="-22" r="1.6" fill="#FF2600" />
+      <circle cx="0" cy="-22.8" r="0.9" fill="#FFF8B3" />
+    </g>
+
+    <!-- Center Main Stick (Standing Straight, slightly taller) -->
+    <g>
+      <!-- Bamboo stem inside burner -->
+      <line x1="0" y1="30" x2="0" y2="18" stroke="url(#bambooGrad)" stroke-width="1.5" stroke-linecap="round" />
+      <!-- Masala paste coated stick body -->
+      <line x1="0" y1="18" x2="0" y2="-25" stroke="url(#masalaGrad)" stroke-width="2.7" stroke-linecap="round" />
+      <!-- Stick 3D highlight edge -->
+      <line x1="-0.5" y1="16" x2="-0.5" y2="-23" stroke="#9E6534" stroke-width="0.7" />
+      <!-- Burning Ember Tip -->
+      <circle cx="0" cy="-26.5" r="4.2" fill="url(#emberGlow)" opacity="0.8" filter="url(#emberBlur)" />
+      <circle cx="0" cy="-26" r="1.8" fill="#FF2200" />
+      <circle cx="0" cy="-26.8" r="1.0" fill="#FFFFCC" />
+    </g>
+
+    <!-- 5. Golden Lotus Incense Burner / Pedestal Base (Stand) -->
+    <!-- Lotus Outer Leaves / Pedestal Petals -->
+    <path d="M 0 17 C -3 21, -5 26, 0 31 C 5 26, 3 21, 0 17 Z" fill="url(#goldBright)" />
+    <!-- Flanking Lotus Petals -->
+    <path d="M -3 20 C -9 20, -15 25, -5 29 C -2 26, -3 22, -3 20 Z" fill="url(#goldGrad)" />
+    <path d="M 3 20 C 9 20, 15 25, 5 29 C 2 26, 3 22, 3 20 Z" fill="url(#goldGrad)" />
+    <path d="M -6 24 C -14 24, -18 29, -9 32 C -5 29, -6 26, -6 24 Z" fill="url(#goldDark)" />
+    <path d="M 6 24 C 14 24, 18 29, 9 32 C 5 29, 6 26, 6 24 Z" fill="url(#goldDark)" />
+
+    <!-- Ornate Brass Agarbatti Stand Bowl -->
+    <ellipse cx="0" cy="27" rx="12" ry="2.6" fill="url(#goldBright)" />
+    <path d="M -10 27 C -10 33, 10 33, 10 27 Z" fill="url(#goldGrad)" />
+    <circle cx="0" cy="29.5" r="1.4" fill="#8A0C11" />
+
+    <!-- Stem of Stand -->
+    <rect x="-3" y="31.5" width="6" height="3" fill="url(#goldDark)" />
+
+    <!-- Tiered Foundation Plinth of Stand -->
+    <path d="M -12 36.5 L -8 34.5 L 8 34.5 L 12 36.5 Z" fill="url(#goldGrad)" />
+    <rect x="-14" y="36.5" width="28" height="2.5" rx="1.2" fill="url(#goldBright)" />
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- RIGHT: BRAND TYPOGRAPHY & IDENTITY                                         -->
+  <!-- ========================================================================= -->
+  <g transform="translate(95, 0)">
+
+    <!-- 1. Top Sacred Category Tagline -->
+    <g transform="translate(125, 18)">
+      <!-- Left decorative star -->
+      <path d="M -88 -2 L -86.5 0 L -88 2 L -89.5 0 Z" fill="#D49B35" />
+      <line x1="-82" y1="0" x2="-62" y2="0" stroke="url(#goldGrad)" stroke-width="1" stroke-linecap="round" />
+
+      <!-- Text -->
+      <text 
+        x="0" 
+        y="2.5" 
+        text-anchor="middle" 
+        fill="#966014" 
+        font-family="'Cinzel', 'Outfit', 'Georgia', serif" 
+        font-size="8" 
+        font-weight="700" 
+        letter-spacing="2.5"
+      >
+        SACRED NATURAL INCENSE
+      </text>
+
+      <!-- Right decorative star -->
+      <line x1="62" y1="0" x2="82" y2="0" stroke="url(#goldGrad)" stroke-width="1" stroke-linecap="round" />
+      <path d="M 88 -2 L 89.5 0 L 88 2 L 86.5 0 Z" fill="#D49B35" />
+    </g>
+
+    <!-- 2. Primary Sacred Brand Name: Divine Fragrance (Replaces Nilkanth Dham) -->
+    <text 
+      x="125" 
+      y="47" 
+      text-anchor="middle" 
+      fill="url(#crimsonGrad)" 
+      font-family="'Cinzel', 'Rozha One', 'Playfair Display', 'Georgia', serif" 
+      font-size="24.5" 
+      font-weight="800" 
+      letter-spacing="1.2"
+      filter="drop-shadow(0px 1px 1px rgba(138, 12, 17, 0.22))"
+    >
+      Divine Fragrance
+    </text>
+
+    <!-- 3. Prominent Agarbatti Line: ✦ PREMIUM AGARBATTI ✦ -->
+    <g transform="translate(125, 65)">
+      <!-- Left ornamental line -->
+      <line x1="-105" y1="-1" x2="-75" y2="-1" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round" />
+      <circle cx="-75" cy="-1" r="1.5" fill="#D49B35" />
+
+      <!-- Center Agarbatti text -->
+      <text 
+        x="0" 
+        y="2.8" 
+        text-anchor="middle" 
+        fill="url(#goldDark)" 
+        font-family="'Cinzel', 'Playfair Display', 'Georgia', serif" 
+        font-size="10.5" 
+        font-weight="800" 
+        letter-spacing="3.2"
+      >
+        PREMIUM AGARBATTI
+      </text>
+
+      <!-- Right ornamental line -->
+      <circle cx="75" cy="-1" r="1.5" fill="#D49B35" />
+      <line x1="75" y1="-1" x2="105" y2="-1" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+
+    <!-- 4. Banner Motto Tagline -->
+    <text 
+      x="125" 
+      y="80" 
+      text-anchor="middle" 
+      fill="#734B22" 
+      font-family="'Cinzel', 'Outfit', 'Georgia', serif" 
+      font-size="7.5" 
+      font-weight="600" 
+      letter-spacing="1.4"
+    >
+      A SACRED AROMA FOR EVERY RITUAL
+    </text>
+  </g>
+</svg>
